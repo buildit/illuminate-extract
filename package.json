@@ -1,0 +1,20 @@
+{
+  "name": "illuminate-extract",
+  "version": "1.0.0",
+  "description": "tmp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "buildit",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "nsp": "^2.6.1",
+    "nyc": "^8.3.0"
+  },
+  "dependencies": {
+    "@buildit/illuminate-systems": "^0.1.5",
+    "moment": "^2.18.1"
+  }
+}
