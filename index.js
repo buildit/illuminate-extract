@@ -11,7 +11,7 @@ var DBDATEFORMAT = 'YYYY-MM-DD';
 ///
 /// EXAMPLE
 ///
-///  index.js digitalrig 'D1g!talRig' NETWRKDIAG 'https://digitalrig.atlassian.net/rest/api/latest/'
+///  index.js user pass NETWRKDIAG 'https://digitalrig.atlassian.net/rest/api/latest/'
 ///
 
 function errorBody(code, description) {
