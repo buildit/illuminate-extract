@@ -22,12 +22,12 @@ function errorBody(code, description) {
 exports.writeThisData = function (fileName, ignoreThis, dataToStore) {
   return new Promise(function(resolve, reject) {
       var fullFile = './'+fileName+'.json';
-      fs.writeFile(fullFile, dataToStore, function(err) {
+      fs.writeFile(fullFile, JSON.stringify(dataToStore), function(err) {
           if (err) {
             console.log(`file write error ${err}`);
             reject(err);
           }
-          else resolve(data);
+          else resolve(dataToStore);
       });
   });
 }

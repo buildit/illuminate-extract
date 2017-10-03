@@ -5,6 +5,9 @@ logs
 *.log*
 npm-debug.log*
 
+# json extract data
+*.json
+
 # Runtime data
 pids
 *.pid
