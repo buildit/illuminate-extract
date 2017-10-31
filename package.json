@@ -2,7 +2,7 @@
   "name": "illuminate-extract",
   "version": "1.0.0",
   "description": "tmp",
-  "main": "index.js",
+  "main": "extract.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "@buildit/illuminate-systems": "^0.1.5",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.33",
+    "ramda": "^0.25.0"
   }
 }
